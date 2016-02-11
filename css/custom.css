@@ -33,7 +33,7 @@
 }
 
 .banner-subscribe-to {
-  width: 200px;
+  width: 175px;
 }
 .wrapper { 
   margin: 0 auto; 
@@ -72,7 +72,7 @@
 .navbar-right .dropdown-menu {
   position: absolute;
   top:100px;
-  width: 475px;
+  width: 425px;
   left:0px;
   z-index: 1;
   padding: 0;
@@ -86,15 +86,15 @@
   padding: 15px 25px 15px;
 }
 
-#dropdown-image {
+.dropdown-image {
   padding-top: 0;
-  width: 475px;
+  width: 422px;
   height: 220px;
 }
 
 .text {
   display: inline-block;
-  width: 330px;
+  width: 270px;
   vertical-align:middle;
   text-align: left;
 }
@@ -194,7 +194,7 @@ form .form-submit:hover {
 
 /* map marker */
 
-.banner-map-maker {
+.banner-width-set {
   width: 100px;
 }
 
@@ -202,11 +202,11 @@ form .form-submit:hover {
 
 /* map marker Dropdown*/
 
-.navbar-right #map-maker-dropdown .dropdown-menu {
+.navbar-right .dropdown-style .dropdown-menu {
   position: absolute;
   top:100px;
-  width: 480px;
-  left:-235px;
+  width: 425px;
+  left:-210px;
   z-index: 1;
 }
 
@@ -228,7 +228,57 @@ form .form-submit:hover {
 /* Sign In */
 
 .banner-sign-in {
-  width: 140px;
+  width: 100px;
 }
+
+/* ----------------------- */
+
+/* small screen navbar*/
+
+.navbar-collapse.collapse {
+  display: block!important;
+}
+
+.navbar-collapse {
+  padding-right: 0px;
+}
+
+.navbar-nav>li, .navbar-nav {
+  float: left !important;
+}
+
+.navbar-right {
+  float: right!important;
+}
+
+@media (max-width: 767px){}
+  .navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+  .navbar-nav {
+    margin: 0px 0px;
+  }
+}
+/* ----------------------- */
+
+/* small screen dropdown*/
+
+/*.navbar-right #map-maker-dropdown .dropdown-menu {
+  position: absolute;
+  top:100px;
+  width: 425px;
+  left:-210px;
+  z-index: 1;
+}
+
+
+*/
+
+
+
+
+
+
 
 /* ----------------------- */

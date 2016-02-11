@@ -22,31 +22,97 @@
     <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
       <div class="container-fluid">
 
-        <div class="navbar-header"> 
-          <button type="button" class="navbar-toggle">
+        <div class="navbar-header hidden-xs"> 
+
+<!--           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
             <span class="sr-only">Toggle navigation</span> 
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <a class="glyphicon glyphicon-search"></a>
+          </button> -->
+
           <a href="#" class="pull-left">
-            <img src="images/logo/logo_lg.svg" alt="">
+            <img class="visible-sm visible-lg" src="images/logo/logo_lg.svg" alt="">
+            <img class="visible-md" src="images/logo/logo-sm.svg" alt="">
           </a>
         </div>
 
-        <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-left nav-items">
+          <ul class="nav navbar-nav navbar-left nav-items visible-lg">
             <li><a href="#">U.S.</a></li>
             <li><a href="#">WORLD</a></li>
             <li><a href="#">BUSINESS</a></li>
             <li><a href="#">TECH & SCIENCE</a></li>
-            <li><a href="#">CULTURE</a></li>
-            <li><a href="#">SPORTS</a></li>
-            <li><a href="#">OPINION</a></li>
             <li><a href="#" class="glyphicon glyphicon-search"></a></li>
           </ul>
 
-          <ul class="nav navbar-nav navbar-right">
+          <!-- Smaller Screen Nav Bar -->
+        <div id="navbar" class="navbar-collapse collapse">
+        <a href="#" class="pull-left">
+          <img class="visible-xs" src="images/logo/logo-sm.svg" alt="">
+        </a>
+          <ul class="nav navbar-nav navbar-right hidden-lg">
+            <li class="divider-vertical"></li>
+            <li class="dropdown dropdown-style">
+              <a href="#" id="search-box" class="dropdown-toggle glyphicon glyphicon-search" data-toggle="dropdown"></a>
+              <div class="banner-width-set">
+              </div> 
+              <ul class="dropdown-menu dropdown-menu-lg">
+                <li>
+                  <div class="map-title">Change Your Edition</div>
+                </li>
+                <li class="divider"></li>
+                <li id="countries">
+                  <table>
+                    <tr>
+                      <td>Peter</td>
+                      <td>Griffin</td>
+                      <td>Griffin</td>
+                    </tr>
+                    <tr>
+                      <td>Lois</td>
+                      <td>Griffin</td>
+                      <td>Griffin</td>
+                    </tr>
+                  </table>
+                  <img class="dropdown-image" src="images/navbar/nav-bar-map.png">
+                </li>
+              </ul>
+            </li>
+            <li class="divider-vertical"></li>
+            <li class="dropdown dropdown-style">
+              <a href="#" id="map-marker" class="dropdown-toggle glyphicon glyphicon-menu-hamburger" data-toggle="dropdown"></a>
+              <div class="banner-width-set">
+              </div> 
+              <ul class="dropdown-menu dropdown-menu-lg">
+                <li>
+                  <div class="map-title">Change Your Edition</div>
+                </li>
+                <li class="divider"></li>
+                <li id="countries">
+                  <table>
+                    <tr>
+                      <td>Peter</td>
+                      <td>Griffin</td>
+                      <td>Griffin</td>
+                    </tr>
+                    <tr>
+                      <td>Lois</td>
+                      <td>Griffin</td>
+                      <td>Griffin</td>
+                    </tr>
+                  </table>
+                  <img class="dropdown-image" src="images/navbar/nav-bar-map.png">
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+          <!-- lg Screen Nav Bar -->
+          <ul class="nav navbar-nav navbar-right visible-lg">
             <li class="divider-vertical"></li>
             <li class="dropdown">
               <a href="#" id="circular-image" class="dropdown-toggle" data-toggle="dropdown">
@@ -59,7 +125,7 @@
                 </div>
               </a>
               <ul class="dropdown-menu dropdown-menu-lg subscribe-to">
-                <li id="dropdown-img"><img id="dropdown-image" src="images/navbar/nav-bar-dropdown-img.jpg"></li>
+                <li id="dropdown-img"><img class="dropdown-image" src="images/navbar/nav-bar-dropdown-img.jpg"></li>
                 <li>
                   <div class="text">
                     <div class="category">$14.99</div>
@@ -92,9 +158,9 @@
               </ul>
             </li>
             <li class="divider-vertical"></li>
-            <li class="dropdown" id="map-maker-dropdown">
+            <li class="dropdown dropdown-style">
               <a href="#" id="map-marker" class="dropdown-toggle glyphicon glyphicon-map-marker" data-toggle="dropdown"></a>
-              <div class="banner-map-maker">
+              <div class="banner-width-set">
               </div> 
               <ul class="dropdown-menu dropdown-menu-lg">
                 <li>
@@ -114,7 +180,7 @@
                       <td>Griffin</td>
                     </tr>
                   </table>
-                  <img id="dropdown-image" src="images/navbar/nav-bar-map.png">
+                  <img class="dropdown-image" src="images/navbar/nav-bar-map.png">
                 </li>
               </ul>
             </li>
@@ -124,8 +190,8 @@
               </div> 
             </li>
           </ul>
-        </div>
 
+        </div>
       </div>
     </nav>
 
