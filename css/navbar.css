@@ -17,7 +17,7 @@
   color: #9d9d9d;
 }
 
-.nav li a:not(#circular-image){
+.nav li a:not(#circular-image):not(.bullet-a){
   line-height: 70px; /*vertically center menu items*/
   position: relative;
   display: block;
