@@ -129,25 +129,25 @@ a {
 
 @media only screen and (max-width: 767px){
   .sub-box {
-    height: 570px;
+    height: 630px;
   }
   #blue-background {
-    height: 555px;
+    height: 615px;
   }
 }
 
 @media only screen and (min-width: 768px){
   .sub-box {
-    height: 570px;
+    height: 550px;
   }
   #blue-background {
-    height: 555px;
+    height: 535px;
   }
 }
 
 @media only screen and (min-width: 992px){
   .sub-box {
-    height: 570px;
+    height: 670px;
   }
   #blue-background {
     height: 555px;
@@ -156,10 +156,10 @@ a {
 
 @media only screen and (min-width: 1200px){
   .sub-box {
-    height: 670px;
+    height: 690px;
   }
   #blue-background {
-    height: 655px;
+    height: 675px;
   }
 }
 
