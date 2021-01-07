@@ -1,0 +1,19 @@
+.navbar {
+  margin-bottom: 0;
+}
+.sidebar h1 {
+  margin-bottom: 16px;
+}
+.sidebar ul {
+  padding-left: 0;
+}
+.sidebar li {
+  list-style: square;
+  color:red;
+  list-style-position: inside;
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+body {
+  font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
