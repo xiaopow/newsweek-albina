@@ -1,0 +1,52 @@
+
+.navbar {
+    margin-bottom: 0;
+  }
+
+  h1{
+    color: red;
+}
+li{
+    list-style: square;
+    color:red;
+    shape-margin: square;
+    list-style-position: inside;
+}
+body {
+    font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
+  }
+  .us {
+      font-size: x-large;
+    color: red;
+    text-align: center;
+
+}
+.sponsor {
+    font-size: x-large;
+    color:skyblue;
+
+}
+
+  .fluid-1
+{
+    color:blue;
+    margin-bottom: 1000;
+    display: inline-block;
+
+}
+
+.sidebar{
+    display: inline;
+    position: absolute;
+    
+}
+
+.article-1  {
+
+float: right;
+}
+.article-2{
+    display: inline;
+    float: left;
+    
+}
